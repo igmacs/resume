@@ -180,62 +180,38 @@ to your project folder if you use the Typst web app.
     ]
 
     #section(title: "Education")[
-      #section-element-advanced(
+      #section-element(
         title: "Master in Artificial Intelligence",
-        info-top-left: "2019-2021",
-        info-top-right: "Madrid, Spain",
-        icon: fa-icon("circle-half-stroke"),
+        info: [_2019 --- 2021_],
         [
           #set text(size: sizes.text-s2)
             Universidad Politécnica de Madrid
-          #icon-list((
-            (icon: "graduation-cap", text: [#highlight[Cumulative GPA: 8,26/10]]),
-              (icon: "graduation-cap", text: [Dissertation: #emph[An Integrated Approach to Assertion-Based Random Testing in Logic Languages]]),
-            // (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-          ))
+            #h(1fr)
+            #highlight[Cumulative GPA: 8,26/10]
         ],
       )
 
-      #section-element-advanced(
+      #section-element(
         title: "Degree in Computer Science",
-        info-top-left: "2012-2018",
-        info-top-right: "Madrid, Spain",
-        icon: fa-icon("circle-half-stroke"),
+        info: [_2012 --- 2018_],
         [
           #set text(size: sizes.text-s2)
             Universidad Complutense de Madrid
-          #icon-list((
-            (icon: "graduation-cap", text: [#highlight[Cumulative GPA: 8,54/10]]),
-            // (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-          ))
+            #h(1fr)
+            #highlight[Cumulative GPA: 8,54/10]
         ],
       )
 
-      #section-element-advanced(
+      #section-element(
         title: "Degree in Mathematics",
-        info-top-left: "2012-2018",
-        info-top-right: "Madrid, Spain",
-        icon: fa-icon("circle-half-stroke"),
+        info: [_2012 --- 2018_],
         [
           #set text(size: sizes.text-s2)
             Universidad Complutense de Madrid
-          #icon-list((
-            (icon: "graduation-cap", text: [#highlight[Cumulative GPA: 8,2/10]]),
-            // (icon: "futbol", text: [Activities: Coding Club (President), Ice Skating, Teaching Assistant]),
-          ))
+            #h(1fr)
+            #highlight[Cumulative GPA: 8,2/10]
         ],
       )
-
-/*
-      #section-element-advanced(
-        title: "Certificate in Cloud Architecture",
-        info-top-left: "2022",
-        [
-          #set text(size: sizes.text-s2)
-          _Google Cloud Professional Track_
-        ],
-      )
-*/
     ]
 
     #show link: it => underline(text(fill: blue)[#it])
