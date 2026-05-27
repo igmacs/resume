@@ -35,20 +35,13 @@ to your project folder if you use the Typst web app.
         #set par(justify: true)
         #show par: it => block(width: 100%, it)
 
-        Software engineer with 5 years of experience spanning research
-        and backend development. Proactive, fast learner, motivated by
-        new challenges and continuos growth, and with a strong
-        interest in exploring new domains beyond my core experience
-        and broadening my skill set rather than over-specializing.
+        Software Engineer with 5 years of experience spanning backend
+        development and research. Experienced in building and
+        operating cloud-native distributed systems in production
+        environments. Motivated by roles that combine strong
+        engineering fundamentals with opportunities to expand into new
+        domains and technologies.
 
-      // Creative and detail-oriented Software Engineer with over
-      // #highlight[5 years of experience] building responsive web
-      // applications and dynamic backend services.
-
-      // Passionate about #highlight[clean code],
-      // #highlight[user-first design], and #highlight[scalable
-      // solutions]. I thrive in fast-paced environments and love
-      // collaborating across teams to bring ideas to life.
     ]
 
     #sidebar-section(title: "Technical skills")[
