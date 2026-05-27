@@ -238,13 +238,15 @@ to your project folder if you use the Typst web app.
 */
     ]
 
+    #show link: it => underline(text(fill: blue)[#it])
+
     #section(title: "Achievements")[
       #section-element(title: "Publications")[
         #set text(size: sizes.text-s2)
         #icon-list((
-            (icon: "book", text: [#link("https://link.springer.com/chapter/10.1007/978-3-030-45260-5_4")[Towards Computing Abstract Distances in Logic Programs]]),
-            (icon: "book", text: [#link("https://link.springer.com/chapter/10.1007/978-3-030-45260-5_10")[An Integrated Approach to Assertion-Based Random Testing in Logic Programs]]),
-            (icon: "book", text: [#link("https://link.springer.com/chapter/10.1007/978-3-030-68446-4_14")[Testing Your (Static Analysis) Truths]]),
+            (icon: "book", text: [_Towards Computing Abstract Distances in Logic Programs_ - #link("https://link.springer.com/chapter/10.1007/978-3-030-45260-5_4")[_LOPSTR 2020_]]),
+            (icon: "book", text: [_An Integrated Approach to Assertion-Based Random Testing in Logic Programs_ - #link("https://link.springer.com/chapter/10.1007/978-3-030-45260-5_10")[_LOPSTR 2020_]]),
+            (icon: "book", text: [_Testing Your (Static Analysis) Truths_ - #link("https://link.springer.com/chapter/10.1007/978-3-030-68446-4_14")[_LOPSTR 2021_]]),
         ))
       ]
 
