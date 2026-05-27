@@ -52,49 +52,13 @@ to your project folder if you use the Typst web app.
     ]
 
     #sidebar-section(title: "Technical skills")[
-/*
-      #skill-group(
-        name: "Frontend Development",
-        icon: "chrome",
-        skills: (
-          "HTML5",
-          "CSS3",
-          "JavaScript (ES6+)",
-          "TypeScript",
-          "React",
-          "Vue.js",
-        )
-      )
 
       #skill-group(
-        name: "Backend Development",
-        icon: "python",
-        skills: (
-          "Node.js",
-          "Express.js",
-          "Python",
-          "PHP",
-          "Django",
-          "FastAPI",
-          "REST",
-          "GraphQL",
-        )
-      )
-*/
-
-      #skill-group(
-        name: "Programming Languages",
+        name: "Main Programming Languages",
         icon: "python",
         skills: (
           "Python",
           "Java",
-          "C",
-          "C++",
-          "Bash",
-          "Clojure",
-          "Haskell",
-          "Prolog",
-          "Emacs Lisp",
         )
       )
 
@@ -103,40 +67,56 @@ to your project folder if you use the Typst web app.
         name: "Backend development",
         icon: "database",
         skills: (
+          "Spring Boot",
+          "FastAPI",
           "PostgreSQL",
           "Kafka",
-          "MSSQL",
-          "Spring",
-          "FastAPI",
         )
       )
 
       #skill-group(
-        name: "DevOps & Cloud",
+        name: "Cloud & Infrastructure",
         icon: "cloud",
         icon-solid: true,
         skills: (
-          "Github Actions",
           "Kubernetes",
-          "Helm",
           "Docker",
           "Terraform",
-          "Flux",
+          "Helm",
+          "FluxCD",
           "Azure",
-          "Datadog",
         )
       )
 
       #skill-group(
-        name: "Development Tools & Other",
+        name: "Observability & CI/CD",
+        icon: "cloud",
+        icon-solid: true,
+        skills: (
+          "Datadog",
+          "Github Actions",
+        )
+      )
+
+      #skill-group(
+        name: "Other",
         icon: "tools",
         skills: (
-          "Git",
-          "Docker",
+          "Bash",
+          "Behave",
+          "C/C++",
+          "Clojure",
+          "Emacs Lisp",
           "Emacs",
-          "Typst",
+          "Git",
+          "Haskell",
           "LaTeX",
+          "MSSQL",
           "Maven",
+          "Prolog",
+          "REST",
+          "Rust",
+          "Typst",
         )
       )
     ]
