@@ -128,15 +128,21 @@ to your project folder if you use the Typst web app.
   main-content: [
     #section(title: "Work Experience")[
       #section-element(
-        title: "Software Engineer @ Midokura (A Sony Group Company)",
-        info: [_2022 --- 2025_],
+        title: "Software Engineer II @ Midokura (A Sony Group Company)",
+        info: [_2023 --- 2025_],
         [
           #set text(size: sizes.text-s2)
           #icon-list((
-            (icon: "shield-halved", text: [Backend software engineer on the cloud component of Sony AITRIOS, supporting remote configuration, management and telemetry ingestion for edge AI camera devices.]),
-              (icon: "shield-halved", text: [Worked in a team with strong engineering best practices and operational ownership: code reviews, automated testing (unit, integration, E2E), CI/CD, on-calls and incident managemnt, infrastructure as code, observability, etc]),
-              (icon: "wrench", text: [Backend stack: Java | Python | Bash | PostgreSQL | Kafka | MSSQL | Spring | FastAPI | Maven ]),
-              (icon: "wrench", text: [Reliability stack:  Datadog | Github Actions | Kubernetes | Helm | Docker | Flux | Terraform | Azure | Git | Behave]),
+
+            (icon: "caret-right", text: [Designed and developed cloud-native backend services for Sony AITRIOS supporting telemetry ingestion, remote configuration, and lifecycle management of edge AI camera devices.]),
+
+            (icon: "caret-right", text: [Built and mantained scalable microservices deployed on Kubernetes-based infrastructure in Azure cloud environments.]),
+
+            (icon: "caret-right", text: [Contributed to production-grade CI/CD pipelines, automated testing, and infrastructure-as-code workflows, improving deployment reliability and engineering velocity.]),
+
+            (icon: "caret-right", text: [Enhanced system observability and operational monitoring using Datadog dashboards, metrics, and alerting for distributed backend services]),
+
+            (icon: "caret-right", text: [Participated in on-call rotations and incident response processes, troubleshooting production issues and improving service reliability and operational stability.]),
           ))
         ],
       )
@@ -147,7 +153,7 @@ to your project folder if you use the Typst web app.
         [
           #set text(size: sizes.text-s2)
           #icon-list((
-            (icon: "shield-halved", text: [Working for Midokura as a contractor until I was hired there directly, so see above for details]),
+            (icon: "caret-right", text: [Working for Midokura as a contractor until I was hired there directly, so see above for details]),
           ))
         ],
       )
