@@ -164,10 +164,10 @@ to your project folder if you use the Typst web app.
         [
           #set text(size: sizes.text-s2)
           #icon-list((
-              (icon: "flask", text: [Conducted research in static analysis and software testing as part of the #link("https://ciao-lang.org")[#highlight[Ciao]] Development Team and the #link("https://cliplab.org")[#highlight[CLIP Lab]] research group.]),
-              (icon: "gears", text: [Developed assertion-based random testing techniques for logic programming, contributing to improved automated test generation methodologies.]),
-              (icon: "scroll", text: [Collaborated on research publications in program analysis and software verification using abstract interpretation.]),
-              (icon: "person-chalkboard", text: [Presented technical findings through academic publications and research dissemination activities.]),
+              (icon: "caret-right", text: [Conducted research in static analysis and software testing as part of the #link("https://ciao-lang.org")[#highlight[Ciao]] Development Team and the #link("https://cliplab.org")[#highlight[CLIP Lab]] research group.]),
+              (icon: "caret-right", text: [Developed assertion-based random testing techniques for logic programming, contributing to improved automated test generation methodologies.]),
+              (icon: "caret-right", text: [Collaborated on research publications in program analysis and software verification using abstract interpretation.]),
+              (icon: "caret-right", text: [Presented technical findings through academic publications and research dissemination activities.]),
           ))
         ],
       )
@@ -219,7 +219,7 @@ to your project folder if you use the Typst web app.
     #show link: it => underline(text(fill: blue)[#it])
 
     #section(title: "Achievements")[
-      #section-element(title: "Publications")[
+      #section-element(title: "Research & Publications")[
         #set text(size: sizes.text-s2)
         #icon-list((
             (icon: "book", text: [_Towards Computing Abstract Distances in Logic Programs_ - #link("https://link.springer.com/chapter/10.1007/978-3-030-45260-5_4")[_LOPSTR 2020_]]),
