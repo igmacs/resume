@@ -87,7 +87,7 @@ to your project folder if you use the Typst web app.
         icon: "diagram-project",
         icon-solid: true,
         skills: (
-          "Github Actions",
+          "GitHub Actions",
           "FluxCD",
           "Datadog",
         )
@@ -136,7 +136,7 @@ to your project folder if you use the Typst web app.
 
             (icon: "caret-right", text: [Designed and developed cloud-native backend services for Sony AITRIOS supporting telemetry ingestion, remote configuration, and lifecycle management of edge AI camera devices.]),
 
-            (icon: "caret-right", text: [Built and mantained scalable microservices deployed on Kubernetes-based infrastructure in Azure cloud environments.]),
+            (icon: "caret-right", text: [Built and maintained scalable microservices deployed on Kubernetes-based infrastructure in Azure cloud environments.]),
 
             (icon: "caret-right", text: [Contributed to production-grade CI/CD pipelines, automated testing, and infrastructure-as-code workflows, improving deployment reliability and engineering velocity.]),
 
@@ -153,7 +153,7 @@ to your project folder if you use the Typst web app.
         [
           #set text(size: sizes.text-s2)
           #icon-list((
-            (icon: "caret-right", text: [Working for Midokura as a contractor until I was hired there directly, so see above for details]),
+            (icon: "caret-right", text: [Worked for Midokura as a contractor until I was hired there directly, so see above for details]),
           ))
         ],
       )
