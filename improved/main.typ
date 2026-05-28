@@ -158,9 +158,10 @@ to your project folder if you use the Typst web app.
         [
           #set text(size: sizes.text-s2)
           #icon-list((
-              (icon: "scroll", text: [Researched static analysis and testing within the #link("https://ciao-lang.org")[#highlight[Ciao]] Development Team and #link("https://cliplab.org")[#highlight[CLIP Lab]] group.]),
-            (icon: "react", text: [Research Topics: Logic Programming, Program Assertions, Abstract Interpretation, Test Case Generation.]),
-              (icon: "wrench", text: [Technologies used: Prolog | LaTeX | Git | Emacs]),
+              (icon: "flask", text: [Conducted research in static analysis and software testing as part of the #link("https://ciao-lang.org")[#highlight[Ciao]] Development Team and the #link("https://cliplab.org")[#highlight[CLIP Lab]] research group.]),
+              (icon: "gears", text: [Developed assertion-based random testing techniques for logic programming, contributing to improved automated test generation methodologies.]),
+              (icon: "scroll", text: [Collaborated on research publications in program analysis and software verification using abstract interpretation.]),
+              (icon: "person-chalkboard", text: [Presented technical findings through academic publications and research dissemination activities.]),
           ))
         ],
       )
