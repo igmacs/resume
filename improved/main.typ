@@ -76,20 +76,20 @@ to your project folder if you use the Typst web app.
         skills: (
           "Kubernetes",
           "Docker",
-          "Terraform",
           "Helm",
-          "FluxCD",
           "Azure",
+          "Terraform",
         )
       )
 
       #skill-group(
-        name: "Observability & CI/CD",
-        icon: "cloud",
+        name: "CI/CD & Observability",
+        icon: "diagram-project",
         icon-solid: true,
         skills: (
-          "Datadog",
           "Github Actions",
+          "FluxCD",
+          "Datadog",
         )
       )
 
