@@ -23,11 +23,13 @@ to your project folder if you use the Typst web app.
     = Ignacio Casso
     ==== Software Engineer
 
+    // #show link: it => underline(text(fill: blue)[#it])
+
     #contact-list((
       (icon: "location", text: "Barcelona"),
       (icon: "at", icon-solid: true, text: link("mailto:ignacio.casso.work@mailbox.org")[ignacio.casso.work\@mailbox.org]),
-      (icon: "linkedin", text: link("https://linkedin.com/in/ignacio-casso")[linkedin.com/in/ignacio-casso]),
-      // (icon: "pencil", text: link("https://blog.johndoe.com/")),
+        (icon: "linkedin", text: [#link("https://linkedin.com/in/ignacio-casso")[#highlight[linkedin.com/in/ignacio-casso]]]),
+        (icon: "github", text: link("https://github.com/igmacs")[#highlight[github.com/igmacs]]),
       // (icon: "phone", text: "(123) 456-789"),
     ))
 
