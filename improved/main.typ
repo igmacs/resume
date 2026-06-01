@@ -12,8 +12,8 @@ to your project folder if you use the Typst web app.
 
 #set text(lang: "en")
 #set document(
-  title: "John Doe (CV)",
-  author: "John Doe",
+  title: "My resume",
+  author: "Ignacio Casso",
   date: none,
 )
 
